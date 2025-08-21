@@ -3,7 +3,7 @@ declarar nota2 = 9.0;
 declarar nota3 = 6.0;
 
 // Calcula a média ponderada com pesos 2, 3 e 1
-declarar media = (nota1 * 2 + nota2 * 3 + nota3)
+declarar media = (nota1 * 2 + nota2 * 3 + nota3);
 imprimir(media);
 
 // Calcula um valor de bônus
