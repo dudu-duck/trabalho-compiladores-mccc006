@@ -9,7 +9,7 @@
         "start": "node lib/index.js"
     },
     "keywords": [],
-    "author": "eduardo correa",
+    "author": "eduardo._correa@outlook.com",
     "license": "MIT",
     "dependencies": {
         "typescript": "4.6.2"
