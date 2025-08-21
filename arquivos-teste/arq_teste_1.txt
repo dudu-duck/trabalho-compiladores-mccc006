@@ -1,0 +1,10 @@
+declarar preco_unitario = 25;
+declarar quantidade = 10;
+
+// Calcula o custo total dos produtos
+declarar custo_total = preco_unitario * quantidade;
+imprimir(custo_total);
+
+// Adiciona uma taxa de entrega
+declarar total_final = custo_total + 15;
+imprimir(total_final);

@@ -1,0 +1,20 @@
+{
+    "name": "trabalho-compiladores-mccc006",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "scripts": {
+        "build:tsc": "tsc -p .",
+        "dev:tsc": "npm run build:tsc -- --watch",
+        "build": "npm run build:jest && npm run build:tsc",
+        "start": "node lib/index.js"
+    },
+    "keywords": [],
+    "author": "eduardo correa",
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "4.6.2"
+    },
+    "devDependencies": {
+        "@types/node": "^24.3.0"
+    }
+}

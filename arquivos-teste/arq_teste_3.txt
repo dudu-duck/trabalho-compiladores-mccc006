@@ -1,0 +1,21 @@
+// Simula o cálculo de rendimento de um investimento.
+
+declarar capital_inicial = 5000;
+declarar taxa_anual_percentual = 10;
+declarar meses = 6;
+
+imprimir(capital_inicial);
+
+// Converte a taxa anual para mensal e calcula o rendimento bruto
+// Como a fórmula de juros compostos seria mais complexa, será usada uma aproximação
+declarar taxa_mensal = taxa_anual_percentual / 12;
+declarar rendimento_bruto = capital_inicial * (1 + (taxa_mensal / 100) * meses);
+imprimir(rendimento_bruto);
+
+// Calcula o imposto sobre o lucro (rendimento - capital)
+declarar imposto = (rendimento_bruto - capital_inicial) * 0.15;
+imprimir(imposto);
+
+// Calcula o valor líquido final
+declarar valor_liquido = rendimento_bruto - imposto;
+imprimir(valor_liquido); 
